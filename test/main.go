@@ -8,7 +8,7 @@ func sum(a []int, c chan int) {
 	for _, v := range a {
 		total += v
 	}
-	c <- total  // send total to c
+	c <- total  // send total to c 1
 }
 
 func main() {
