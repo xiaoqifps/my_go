@@ -1,4 +1,4 @@
-module mathapp
+module mysql_demo
 
 go 1.18
 

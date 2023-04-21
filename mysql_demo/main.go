@@ -6,8 +6,6 @@ import (
 	"mysql_demo/mysql"
 )
 
-
-
 func main() {
 	if err := mysql.InitMysql(); err != nil {
 		fmt.Println("数据库连接失败", err)
@@ -21,9 +19,3 @@ func main() {
 	//mysql.UpdateRowDemo()
 	//mysql.DeleteRowDemo()
 }
-
-
-
-
-
-
